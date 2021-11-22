@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="team_cis">
+        <item>NAVI</item>
+        <item>VIRTUS PRO</item>
+        <item>GAMBIT</item>
+    </string-array>
+    <array name="team_logo_cis">
+        <item>@drawable/navi</item>
+        <item>@drawable/virtus</item>
+        <item>@drawable/gambit</item>
+    </array>
+
+    <string-array name="team_china">
+        <item>TYLOO</item>
+        <item>LYNN VISION</item>
+        <item>VICI</item>
+    </string-array>
+    <array name="team_logo_china">
+        <item>@drawable/tyloo</item>
+        <item>@drawable/lynnvision</item>
+        <item>@drawable/vici</item>
+    </array>
+
+    <string-array name="team_usa">
+        <item>TEAM LIQUID</item>
+        <item>NRG</item>
+        <item>GHOST</item>
+        <item>CLOUD9</item>
+    </string-array>
+    <array name="team_logo_usa">
+        <item>@drawable/liquid</item>
+        <item>@drawable/nrg</item>
+        <item>@drawable/ghost</item>
+        <item>@drawable/cloud9</item>
+    </array>
+
+    <string-array name="team_europe">
+        <item>ASTRALIS</item>
+        <item>FNATIC</item>
+        <item>G2</item>
+        <item>VITALITY</item>
+    </string-array>
+    <array name="team_logo_europe">
+        <item>@drawable/astralis</item>
+        <item>@drawable/fnatic</item>
+        <item>@drawable/g2</item>
+        <item>@drawable/vitality</item>
+    </array>
+
+
+    <string-array name="navi_team">
+        <item>BoombI4</item>
+        <item>Simple</item>
+        <item>Electronic</item>
+        <item>Perfecto</item>
+        <item>Bit</item>
+    </string-array>
+    <array name="navi_img">
+        <item>@drawable/boom_navi</item>
+        <item>@drawable/simple_navi</item>
+        <item>@drawable/electronic_navi</item>
+        <item>@drawable/perfecto_navi</item>
+        <item>@drawable/b1t_navi</item>
+    </array>
+
+    <string-array name="gambit_team">
+        <item>Nafany</item>
+        <item>Hobbit</item>
+        <item>Ax1Le</item>
+        <item>Sh1ro</item>
+        <item>Interz</item>
+    </string-array>
+    <array name="gambit_img">
+        <item>@drawable/nafany_gambit</item>
+        <item>@drawable/hobbit_gambit</item>
+        <item>@drawable/axile_gambit</item>
+        <item>@drawable/shiro_gambit</item>
+        <item>@drawable/interz_gambit</item>
+    </array>
+    <string-array name="vp_team">
+        <item>Jame</item>
+        <item>Buster</item>
+        <item>Qikert</item>
+        <item>YEKINDAR</item>
+        <item>FL1T</item>
+    </string-array>
+    <array name="vp_img">
+        <item>@drawable/jame_vp</item>
+        <item>@drawable/buster_vp</item>
+        <item>@drawable/qikert_vp</item>
+        <item>@drawable/yekindar_vp</item>
+        <item>@drawable/flit_vp</item>
+    </array>
+
+
+<!--CHINA-->
+
+
+    <string-array name="tyloo_team">
+        <item>Summer</item>
+        <item>Attacker</item>
+        <item>Somebody</item>
+        <item>SLOWLY</item>
+        <item>DANK1NG</item>
+    </string-array>
+    <array name="tyloo_img">
+        <item>@drawable/summer_tyloo</item>
+        <item>@drawable/attacker_tyloo</item>
+        <item>@drawable/somebody_tyloo</item>
+        <item>@drawable/slowly_tyloo</item>
+        <item>@drawable/danking_tyloo</item>
+    </array>
+
+    <string-array name="lynnVision_team">
+        <item>Expro</item>
+        <item>Westmelon</item>
+        <item>B1NGO</item>
+        <item>z4kr</item>
+        <item>Starry</item>
+    </string-array>
+    <array name="lynnVision_img">
+        <item>@drawable/expro_lynnvision</item>
+        <item>@drawable/westmelon_lynnvision</item>
+        <item>@drawable/bingo_lynnvision</item>
+        <item>@drawable/zakr_lynnvision</item>
+        <item>@drawable/starry_lynnvision</item>
+    </array>
+
+    <string-array name="vici_team">
+        <item>Advent</item>
+        <item>ZhokiNG</item>
+        <item>AumaN</item>
+        <item>Kaze</item>
+        <item>JamYoung</item>
+    </string-array>
+    <array name="vici_img">
+        <item>@drawable/advent_vici</item>
+        <item>@drawable/zhoking_vici</item>
+        <item>@drawable/auman_vici</item>
+        <item>@drawable/kaze_vici</item>
+        <item>@drawable/jamyoung_vici</item>
+    </array>
+
+
+</resources>
