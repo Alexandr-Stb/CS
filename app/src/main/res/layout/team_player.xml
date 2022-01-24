@@ -9,6 +9,7 @@
     android:background="@color/app_back">
 
     <ScrollView
+        android:id="@+id/teamPlayer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"

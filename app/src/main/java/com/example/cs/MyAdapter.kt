@@ -8,9 +8,8 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.cs.data.Storage
 import com.example.cs.data.models.Team
-import kotlinx.android.synthetic.main.header_menu.view.*
-import kotlinx.android.synthetic.main.item_layout.view.*
 
 class MyAdapter(teams: List<Team>,val context:Context):RecyclerView.Adapter<MyAdapter.ViewHolder>() {
     var teams: List<Team> = mutableListOf()
@@ -21,14 +20,14 @@ class MyAdapter(teams: List<Team>,val context:Context):RecyclerView.Adapter<MyAd
             titleItem.text = team.title
             image.setImageResource(team.logo)
             itemView.setOnClickListener {
-                var team = this.itemView.item_full.text_item.text
+//                var team = Storage.teams[position]
                 context.startActivity(this.transfer(team,context))
             }
         }
 
-        private fun transfer(team: CharSequence?, context: Context): Intent{
-            var i = Intent(context, Team_content::class.java)
-            i.putExtra(Team_content.TEAM_EXTRA_KEY, team)
+        private fun transfer(team: Team, context: Context): Intent{
+            var i = Intent(context, TeamContent::class.java)
+            i.putExtra(TeamContent.TEAM_EXTRA_KEY,team)
             return i
         }
     }
@@ -48,14 +47,11 @@ class MyAdapter(teams: List<Team>,val context:Context):RecyclerView.Adapter<MyAd
         return  teams.size
     }
 
-//    fun updateAdapter(listArray: List<ListItem>){
-//        listArrayR.clear()
-//        listArrayR.addAll(listArray)
-//        notifyDataSetChanged()
-//    }
 
     fun updateAdapter(teams: List<Team>){
         this.teams = teams
+
+
         notifyDataSetChanged()
     }
 }

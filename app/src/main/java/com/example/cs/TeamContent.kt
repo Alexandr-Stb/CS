@@ -49,18 +49,6 @@ class TeamContent:AppCompatActivity() {
             title_player_5.text = players[4].name
     }
 
-    private fun getImageId(imageArrayId: Int): IntArray {
-        var tArray: TypedArray = resources.obtainTypedArray(imageArrayId)
-        val count = tArray.length()
-        val ids = IntArray(count)
-        for (i in ids.indices) {
-            ids[i] = tArray.getResourceId(i, 0)
-        }
-        tArray.recycle()
-        return ids
-
-
-    }
 }
 
 

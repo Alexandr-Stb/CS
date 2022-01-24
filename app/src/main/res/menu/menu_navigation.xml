@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:showIn = "navigation_view">
+    android:id="@+id/regions_list"
+    tools:showIn="navigation_view">
     <group android:checkableBehavior="single">
-        <item android:title="@string/CIS"
+        <item
             android:id="@+id/cis"
             android:icon="@drawable/cis_img"
-            />
+            android:title="@string/CIS" />
 
-        <item android:title="@string/China"
+        <item
             android:id="@+id/china"
-            android:icon="@drawable/china_img"/>
+            android:icon="@drawable/china_img"
+            android:title="@string/China" />
 
-        <item android:title="@string/USA"
+        <item
             android:id="@+id/usa"
-            android:icon="@drawable/usa_img"/>
+            android:icon="@drawable/usa_img"
+            android:title="@string/USA" />
 
-        <item android:title="@string/Europe"
+        <item
             android:id="@+id/europe"
-            android:icon="@drawable/europe_img"/>
+            android:icon="@drawable/europe_img"
+            android:title="@string/Europe" />
     </group>
 </menu>
