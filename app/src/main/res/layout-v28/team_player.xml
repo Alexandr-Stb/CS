@@ -19,13 +19,14 @@
         >
 
         <LinearLayout
+            android:id="@+id/linerLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:background="@drawable/back_menu"
+            android:orientation="vertical">
             >
 
             <LinearLayout
+                android:id="@+id/backLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
@@ -43,19 +44,18 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.088"
-
-
-                    tools:targetApi="p" />
+                    />
 
                 <TextView
                     android:id="@+id/title_player_1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:background="@color/app_line_item"
                     android:fontFamily="@font/aldrich"
                     android:text="TextView"
-                    android:textAlignment="center"
 
+                    android:textAlignment="center"
                     android:textColor="@color/app_color"
                     android:textSize="20dp"
                     app:layout_constraintEnd_toEndOf="@+id/player_1"
@@ -74,8 +74,6 @@
                         android:layout_weight="1"
                         android:orientation="vertical">
 
-
-
                         <ImageView
                             android:id="@+id/player_2"
                             android:layout_width="match_parent"
@@ -89,6 +87,7 @@
                             android:id="@+id/title_player_2"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:background="@color/app_line_item"
                             android:fontFamily="@font/aldrich"
                             android:gravity="center"
                             android:text="TextView"
@@ -96,7 +95,9 @@
                             android:textColor="@color/app_color"
                             app:layout_constraintEnd_toEndOf="@+id/player_1"
                             app:layout_constraintStart_toStartOf="@+id/player_1"
-                            app:layout_constraintTop_toBottomOf="@+id/player_1" />
+                            app:layout_constraintTop_toBottomOf="@+id/player_1"
+
+                            />
 
                     </LinearLayout>
 
@@ -119,6 +120,7 @@
                             android:id="@+id/title_player_3"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:background="@color/app_line_item"
                             android:fontFamily="@font/aldrich"
                             android:gravity="center"
                             android:text="TextView"
@@ -157,6 +159,7 @@
                             android:id="@+id/title_player_4"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:background="@color/app_line_item"
                             android:fontFamily="@font/aldrich"
                             android:gravity="center"
                             android:text="TextView"
@@ -187,6 +190,7 @@
                             android:id="@+id/title_player_5"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:background="@color/app_line_item"
                             android:fontFamily="@font/aldrich"
                             android:gravity="center"
                             android:text="TextView"
@@ -210,7 +214,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
-                    android:padding="25dp">
+                    android:padding="25dp"
+                    android:background="@color/app_color_gray"
+                    >
 
                     <TextView
                         android:id="@+id/textDescription"
@@ -218,6 +224,7 @@
                         android:layout_height="wrap_content"
                         android:textAlignment="center"
                         android:textColor="@color/app_line_item"
+
 
                         android:text="akjdhgkajhglkjashdgjkahgjalskjhgjhasgjasl
 jkghajghljkashgljkasdgjadhglkjashgljksahgjklasdhalkjgaklg

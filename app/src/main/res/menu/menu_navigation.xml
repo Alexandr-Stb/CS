@@ -15,11 +15,6 @@
             android:title="@string/China" />
 
         <item
-            android:id="@+id/usa"
-            android:icon="@drawable/usa_img"
-            android:title="@string/USA" />
-
-        <item
             android:id="@+id/europe"
             android:icon="@drawable/europe_img"
             android:title="@string/Europe" />

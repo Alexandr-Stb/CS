@@ -1,5 +1,6 @@
 package com.example.cs
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
 import android.view.LayoutInflater
@@ -48,6 +49,7 @@ class MyAdapter(teams: List<Team>,val context:Context):RecyclerView.Adapter<MyAd
     }
 
 
+    @SuppressLint("NotifyDataSetChanged")
     fun updateAdapter(teams: List<Team>){
         this.teams = teams
 

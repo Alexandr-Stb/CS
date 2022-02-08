@@ -8,5 +8,7 @@ data class Team(
     val title: String,
     val logo: Int,
     val players: List<Player>,
-    val region: Storage.Regions
+    val region: Storage.Regions,
+    val description:String,
+    val background: Int
 ): Serializable
