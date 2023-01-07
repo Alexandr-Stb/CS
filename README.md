@@ -4,7 +4,9 @@
 # CS:GO Directory
 
 CS:GO Directory - это мобильное приложение, в котором можно найти актуальные данные 
-по киберспортивным команадам CS:GO.
+по киберспортивным команадам CS:GO:
+
+![Наглядный функционал](https://github.com/Alexandr-Stb/CS/blob/master/team_test.gif)
 
 В приложении доступны 9 команд, которые поделены по регионам (CIS,China,Europe)[^1]
 У кждой команды свой дизайн экрана:
@@ -33,5 +35,13 @@ private fun transfer(team: Team, context: Context): Intent{
             return i
 }
 ```
+
+## Автотесты
+
+Также на приложение написаны автотесты, которые можно найти в [этом репозитории](https://github.com/Alexandr-Stb/CS/tree/master/app/src/androidTest/java/tests)
+
+Вот пример прогонки удачного автотеста, который проверяет функционал сборки команд.
+
+![team_test](https://github.com/Alexandr-Stb/CS/blob/master/team_test.gif)
 
 [^1]:[СНГ, Китай, Европа]
